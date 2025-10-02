@@ -16,3 +16,6 @@ del fruits[1]             # delete by index
 my_set = {1, 2, 3, 4, 4, 2}                 **set**
 {1, 2, 3, 4}   # duplicates removed automatically
 person = {"name": "Ankita","age": 30,"city": "Kolkata"}   **Dictionary**
+name = "ankita" age=30 height=5.2                        **variable**
+print(name + " is " + str(age) + " years old and " + str(height) + " feet tall.") 
+ankita is 30 years old and 5.2 feet tall.
