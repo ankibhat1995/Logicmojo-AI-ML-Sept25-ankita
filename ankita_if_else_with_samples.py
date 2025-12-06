@@ -2,6 +2,10 @@
 
 # -----------------------------
 # 1. Positive, Negative, Zero
+Write a program that checks if a number n is:
+Positive
+Negative
+Zero
 # -----------------------------
 def check_number(n):
     if n > 0:
@@ -10,14 +14,6 @@ def check_number(n):
         return "Negative"
     else:
         return "Zero"
-
-# Sample Runs
-samples_check_number = [
-    check_number(10),
-    check_number(-5),
-    check_number(0)
-]
-
 
 # -----------------------------
 # 2. Even or Odd
